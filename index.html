@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academia GG - Saia do Neutro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="cabeça">
+        <h1>Academia GG</h1>
+        <p>Saia do Neutro</p>
+    </header>
+
+     <section class="planos">
+         <h2>Planos de Academia</h2>
+         <div class="plano">
+            <h3>Plano Duo</h3>
+            <p>R$ 105,00 por mês</p>
+            <p>Benefícios:
+             <ul>
+                <li>Para duas pessoas;</li>
+                <li>3x por semana;</li>
+                <li>Temos esteira;</li>
+            </ul> </p>
+	        <button class="toggleButton" data-target="secao6">Comprar</button>
+            <section id="secao6" class="hidden">
+            	<h3>Qual a forma de pagamento?</h3>
+            	<button class="paymentButton" data-product="Plano Duo" data-price="105.00" data-payment="Cartão de Crédito">Cartão de Crédito</button> 
+                <button class="paymentButton" data-product="Plano Duo" data-price="105.00" data-payment="Pix">Pix</button>
+          </div>
+         <div class="plano">
+            <h3>Plano Gold</h3>
+            <p>R$ 115,00 por mês</p>
+            <p>Benefícios <ul>
+                <li>Para duas pessoas;</li>
+                <li>Musculação Livre;</li>
+                <li>Aulas Coletivas;</li>
+                <li>Renovação Automática;</li>
+            </ul> </p>
+	    <button class="toggleButton" data-target="secao7">Comprar</button>
+            <section id="secao7" class="hidden">
+            	<h3>Qual a forma de pagamento?</h3>
+            	<button class="paymentButton" data-product="Plano Gold" data-price="115.00" data-payment="Cartão de Crédito">Cartão de Crédito</button> 
+                <button class="paymentButton" data-product="Plano Gold" data-price="115.00" data-payment="Pix">Pix</button>
+         </div>
+         <div class="plano">
+           <h3>Plano Diamante</h3>
+           <p>R$ 135,00 por mês</p>
+           <p>Benefícios <ul>
+                <li>Para três pessoas;</li>
+                <li>Musculação Livre;;</li>
+                <li>Lutas;</li>
+                <li>Zero Taxa de Matrícula;</li>
+            </ul> </p>
+	   <button class="toggleButton" data-target="secao8">Comprar</button>
+            <section id="secao8" class="hidden">
+            	<h3>Qual a forma de pagamento?</h3>
+            	<button class="paymentButton" data-product="Plano Diamante" data-price="135.00" data-payment="Cartão de Crédito">Cartão de Crédito</button> 
+                <button class="paymentButton" data-product="Plano Diamante" data-price="135.00" data-payment="Pix">Pix</button>
+         </div>
+     </section>
+
+     <section class="suplementos">
+         <h2>Suplementos</h2>
+         <div class="produto">
+            <img src="whey.png" alt="Whey">
+            <p>Whey - Nutrex(923g) - <strong> Oferta 165,00R$</strong></p>
+            <button class="toggleButton" data-target="secao">Comprar</button>
+            <section id="secao" class="hidden">
+            	<h3>Qual a forma de pagamento?</h3>
+            	<button class="paymentButton" data-product="Whey" data-price="165.00" data-payment="Cartão de Crédito">Cartão de Crédito</button> 
+                <button class="paymentButton" data-product="Whey" data-price="165.00" data-payment="Pix">Pix</button>
+            </section>
+         </div>
+         <div class="produto">
+            <img src="creatina.png" alt="Creatina">
+            <p>Creatina - Black Skull - 170,00R$</p>
+	    <button class="toggleButton" data-target="secao1">Comprar</button>
+            <section id="secao1" class="hidden">
+            	<h3>Qual a forma de pagamento?</h3>
+            	<button class="paymentButton" data-product="Creatina" data-price="170.00" data-payment="Cartão de Crédito">Cartão de Crédito</button> 
+                <button class="paymentButton" data-product="Creatina" data-price="170.00" data-payment="Pix">Pix</button>
+	    </section>
+         </div>
+         <div class="produto">
+            <img src="cafeina.png" alt="Cafeina">
+            <p>Cafeína - Growth(200g) - 85,00R$</p>
+	    <button class="toggleButton" data-target="secao2">Comprar</button>
+            <section id="secao2" class="hidden">
+            	<h3>Qual a forma de pagamento?</h3>
+            	<button class="paymentButton" data-product="Cafeína" data-price="85.00" data-payment="Cartão de Crédito">Cartão de Crédito</button> 
+                <button class="paymentButton" data-product="Cafeína" data-price="85.00" data-payment="Pix">Pix</button>
+	    </section>
+         </div>
+         <div class="produto">
+            <img src="pretreino.png" alt="Pré-Treino">
+            <p>Pré-Treino - Haze(300g) - 120,00R$ </p>
+	    <button class="toggleButton" data-target="secao3">Comprar</button>
+            <section id="secao3" class="hidden">
+            	<h3>Qual a forma de pagamento?</h3>
+            	<button class="paymentButton" data-product="Pré-Treino" data-price="120.00" data-payment="Cartão de Crédito">Cartão de Crédito</button> 
+                <button class="paymentButton" data-product="Pré-Treino" data-price="120.00" data-payment="Pix">Pix</button>
+         </div>
+         <div class="produto">
+            <img src="camisadosgu.png" alt="Camisa">
+            <p>Camiseta Dos Gurizes - 85,00R$</p>
+	    <button class="toggleButton" data-target="secao4">Comprar</button>
+            <section id="secao4" class="hidden">
+            	<h3>Qual a forma de pagamento?</h3>
+            	<button class="paymentButton" data-product="Camiseta Personalizada" data-price="85.00" data-payment="Cartão de Crédito">Cartão de Crédito</button> 
+                <button class="paymentButton" data-product="Camiseta Personalizada" data-price="85.00" data-payment="Pix">Pix</button>
+         </div>
+         <div class="produto">
+            <img src="garrafadosgu.png" alt="Garrafa" width="100" height="100">
+            <p>Garrafa dos Gurizes - 50,00R$ </p>
+	    <button class="toggleButton" data-target="secao5">Comprar</button>
+            <section id="secao5" class="hidden">
+            	<h3>Qual a forma de pagamento?</h3>
+            	<button class="paymentButton" data-product="Garrafa GG" data-price="50.00" data-payment="Cartão de Crédito">Cartão de Crédito</button> 
+                <button class="paymentButton" data-product="Garrafa GG" data-price="50.00" data-payment="Pix">Pix</button>
+         </div>
+    </section>
+
+ 
+     <footer>
+       <p>Quer um motivo para comecar a treinar conosco?</p>
+       <span><strong>Caba Começou a treinar na GG -------></strong> <br></span>
+       <img src="caba treinou na gg.jpg" alt="Comecou na GG" width=1000 height=900>
+     </footer>
+     <script src="scripts.js"></script>
+
+</body>
+</html>
