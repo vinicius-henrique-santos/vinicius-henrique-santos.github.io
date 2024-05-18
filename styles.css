@@ -1,4 +1,4 @@
-﻿
+
 body {
     font-family: Arial, sans-serif;
     background-color: #000;
@@ -72,7 +72,16 @@ button {
 button:hover {
     background-color: #00ff00;
 }
-
+.produto {
+    cursor: pointer;
+    border: #fff;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+.produto:hover {
+    transform: scale(1.05);
+    border-color: #51d351;
+}
 .produto img {
     width: 100px;
     height: 100px;
